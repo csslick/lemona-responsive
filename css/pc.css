@@ -14,13 +14,16 @@ section h2 {
   margin: 0 auto; */
   padding-left: 30px;
   padding-right: 30px;
-  outline: 1px solid #333;
+  /* outline: 1px solid #333; */
 }
 
 #toggle-btn {
   display: none;
 }
 
+#main-header {
+  border-bottom: 1px solid #ccc;
+}
 #main-header .container {
   display: flex;
   justify-content: space-between;
