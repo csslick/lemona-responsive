@@ -24,6 +24,7 @@ section h2 {
 #main-header {
   border-bottom: 1px solid #ccc;
 }
+
 #main-header .container {
   display: flex;
   justify-content: space-between;
@@ -34,4 +35,17 @@ section h2 {
 #gnb ul li {
   display: inline-block;
   margin-left: 140px;
+}
+
+
+/* 메인 비주얼 */
+#main-visual {
+  background: #FCEEAD;
+  width: 100%;
+  height: 100vh;
+}
+
+#main-visual .container {
+  display: flex;
+  background: #ccc;
 }
