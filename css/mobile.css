@@ -61,7 +61,8 @@ section h2 {
   padding: 20px;
 }
 
-
+/* 모바일 로고 크기 */
 #main-header .container h1 img {
   display: block;
+  width: 140px;
 }
