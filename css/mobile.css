@@ -1,6 +1,6 @@
 /* mobile.css */
 body {
-  background: orange;
+  /* background: orange; */
   font-size: 14px;
 }
 
@@ -10,7 +10,9 @@ section h2 {
 
 #toggle-btn {
   border-style: none;
-  font-size: 24px
+  font-size: 24px;
+  background: transparent;
+  cursor: pointer;
 }
 
 .bi-list {
@@ -29,6 +31,10 @@ section h2 {
 
 #toggle-btn {
   display: block;
+}
+
+#main-header {
+  background: #fff;
 }
 
 #main-header .container {
@@ -53,4 +59,9 @@ section h2 {
 
 #gnb > ul {
   padding: 20px;
+}
+
+
+#main-header .container h1 img {
+  display: block;
 }
