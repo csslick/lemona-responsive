@@ -76,6 +76,14 @@ section h2 {
 
 
 /* 모바일 로고 크기 */
+#main-header {
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  width: 100%;
+  height: var(--mobile-header-height);
+  background: #fff;
+}
+
 #main-header .container h1 img {
   display: block;
   width: 140px;
@@ -88,4 +96,64 @@ section h2 {
 
 #main-header nav.on {
 	display: block;
+}
+
+
+/* 메인 비주얼 */
+#main-visual {
+  background: #FCEEAD;
+  width: 100%;
+  height: calc(100vh - var(--mobile-header-height));
+  box-sizing: content-box;
+  padding-top: var(--mobile-header-height);  
+}
+
+#main-visual .container {
+  display: block;
+  /* background: #ccc; */
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main-visual .title {
+  outline: 1px solid #333;
+  padding-top: 40px;
+}
+
+#main-visual .title h2 {
+  /* outline: 1px solid red; */
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 55px;
+  letter-spacing: 0.2em;  
+}
+
+#main-visual .title p {
+  /* outline: 1px solid red; */
+}
+
+#main-visual .title p > span {
+  display: block;
+}
+
+#main-visual .title p > span:first-child {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.3em;
+}
+
+#main-visual .title p > span:last-child {
+  font-weight: 500;
+  font-size: 38px;
+}
+
+#main-visual .img {
+  outline: 1px solid #333;
+}
+
+#main-visual .img img {
+  width: 75%;
 }
