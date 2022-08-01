@@ -101,7 +101,7 @@ section h2 {
 
 /* 메인 비주얼 */
 #main-visual {
-  background: #FCEEAD;
+  /* background: #FCEEAD; */
   width: 100%;
   height: calc(100vh - var(--mobile-header-height));
   box-sizing: content-box;
@@ -196,11 +196,10 @@ section h2 {
 	align-items: center;
 	text-align: center;
 	background: var(--main-color);
-
 }
 
 #main-section1 .container .col:last-child h2 {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 29px;
@@ -211,11 +210,11 @@ section h2 {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 #main-section1 .container .col:last-child p {
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
@@ -227,4 +226,13 @@ section h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  height: 100%;
 }
+
+#main-section1 .col:last-child .info > *{
+  /* outline: 1px solid red; */
+}
+
+
+

@@ -66,3 +66,7 @@ button:hover {
 #main-header {
   z-index: 999;
 }
+
+#main-visual {
+  background: var(--banner-bg-color2);
+}

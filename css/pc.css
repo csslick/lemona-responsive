@@ -51,7 +51,7 @@ section h2 {
 /* 메인 비주얼 */
 #main-visual {
   /* background: #FCEEAD; */
-  background: var(--banner-bg-color3);
+  /* background: var(--banner-bg-color3); */
   width: 100%;
   height: calc(100vh - var(--pc-header-height));
   box-sizing: content-box;
@@ -176,3 +176,19 @@ letter-spacing: 0.2em;
 #main-section1 .container {
   padding: 0;
 }
+
+
+/* 메인섹션 2 -- 2 x 2 레이아웃 */
+#main-section2 {
+
+}
+
+#main-section2 .container {
+
+}
+
+#main-section2 .container .col {
+  outline: 2px solid red;
+
+}
+
