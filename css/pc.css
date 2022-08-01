@@ -113,3 +113,65 @@ letter-spacing: 0.2em;
 #main-visual .img img {
   width: 75%;
 }
+
+
+/* vitamin 섹션 */
+#main-section1 {
+  background: pink;
+  height: calc(100vh - var(--pc-header-height));
+}
+
+#main-section1 .container {
+  display: flex;
+  height: 100%;
+}
+
+#main-section1 .container .col {
+  /* flex: 1; */
+  width: 50%;
+  /* outline: 1px solid #333; */
+}
+
+#main-section1 .container .col:first-child img {
+  width: 71%;
+  display: block;
+}
+
+#main-section1 .container .col:first-child {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-section1 .container .col:last-child {
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 75px;
+  padding-right: 30px;
+}
+
+#main-section1 .container .col:last-child .info {
+  /* outline: 1px solid red; */
+  max-width: 570px;
+}
+
+#main-section1 .container .col:last-child h2 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#main-section1 .container .col:last-child .sub-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#main-section1 .container .col:last-child p {
+  margin-bottom: 40px;
+}
+
+#main-section1 .container {
+  padding: 0;
+}

@@ -40,3 +40,23 @@ button:hover {
   font-weight: 500;
 }
 
+.btn {
+  font-size: 16px;
+  width: 245px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #ED1B25; */
+  color: #000;
+  border: 1px solid var(--sub-color);
+}
+
+.btn-detail {
+  background: #ED1B25;
+  color: #fff;
+}
+
+#main-header {
+  z-index: 999;
+}
