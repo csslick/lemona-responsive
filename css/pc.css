@@ -50,7 +50,8 @@ section h2 {
 
 /* 메인 비주얼 */
 #main-visual {
-  background: #FCEEAD;
+  /* background: #FCEEAD; */
+  background: var(--banner-bg-color3);
   width: 100%;
   height: calc(100vh - var(--pc-header-height));
   box-sizing: content-box;
