@@ -6,6 +6,7 @@ body {
 
 section h2 {
   font-size: 50px;
+  font-weight: 500;
 }
 
 .container {
@@ -272,7 +273,7 @@ letter-spacing: 0.2em;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
  }
 
  .modal.on {

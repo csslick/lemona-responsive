@@ -303,7 +303,6 @@ section h2 {
 
 
 
-
  /* 모달창 */
  .modal {
   position: fixed;
@@ -316,7 +315,7 @@ section h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
  }
 
  .modal.on {

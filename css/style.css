@@ -17,6 +17,11 @@
   --mobile-header-height: 60px;
 }
 
+html {
+  /* 페이지 smooth scroll */
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
