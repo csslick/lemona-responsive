@@ -17,7 +17,7 @@
 - Bootstrap 아이콘
 
 # 대표사진
-![image](https://user-images.githubusercontent.com/24298382/182273516-d4f6dd50-421d-4d7f-a1ee-b3ceb0a4303d.png)
+![image 4](https://user-images.githubusercontent.com/24298382/182274037-009a8aeb-03d9-491d-8c40-912730e549ba.png)
 
 
 # 홈페이지 링크
