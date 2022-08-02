@@ -189,13 +189,16 @@ letter-spacing: 0.2em;
   align-items: center;
  }
  
- #main-section2 .container .col{
+ #main-section2 .container .col {
    width: 50%;
    height: 50%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   text-align: center;
+   background-size: cover;
+   background-position: center;
  }
  
  #main-section2 .container .col h2{
